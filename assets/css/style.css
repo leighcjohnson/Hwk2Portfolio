@@ -1,0 +1,28 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: mistyrose; 
+}
+
+.header {
+    border-style: ridge; 
+    border-color: mintcream;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: fantasy;
+    font-size: x-large;
+}
+
+.header ol {
+    list-style-type: none;
+    float: right; 
+}
+
+.header ol li {
+    display: inline-block; 
+}
+
