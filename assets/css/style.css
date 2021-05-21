@@ -3,12 +3,13 @@
 }
 
 body {
-    background-color: mistyrose; 
+    background-color: rgb(240, 193, 227); 
 }
 
 .header {
     border-style: ridge; 
-    border-color: mintcream;
+    border-color: rgb(99, 54, 82);
+    background-color: rgb(255, 234, 249);
     text-align: center;
 }
 
@@ -26,3 +27,11 @@ body {
     display: inline-block; 
 }
 
+.contact ol {
+    list-style-type: none;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic; 
+}
