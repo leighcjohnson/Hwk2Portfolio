@@ -28,27 +28,25 @@ body {
 }
 
 .avatar img {
-    max-height: 600px;
-    max-width: 600px;
-    margin: 100px;
-    float: left;
-    margin-right: 100px;  
+    margin: 100px; 
+    max-height: 500px;
+    max-width: 500px;
+    float: left; 
 }
 
 .about {
+    margin: 175px;
     text-align: center;
-    float: right; 
-    margin: 150px;
-    font-size: xx-large; 
+    font-size: xx-large;
 }
 
 .work {
     text-align: center;
-    display: inline-block; 
-    margin: 100px; 
 }
 
 .work img {
+    margin: auto;
+    display: inline-block;  
     width: 300px;
     height: 180px;
 }
