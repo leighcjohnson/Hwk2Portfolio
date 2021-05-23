@@ -7,6 +7,7 @@ body {
 }
 
 .header {
+    margin: 10px; 
     border-style: ridge; 
     border-color: rgb(99, 54, 82);
     background-color: rgb(255, 234, 249);
@@ -15,7 +16,7 @@ body {
 
 .header h1 {
     font-family: fantasy;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .header ol {
@@ -25,13 +26,14 @@ body {
 
 .header ol li {
     display: inline-block;
+    margin: 10px; 
 }
 
 .avatar img {
     margin: 100px; 
     max-height: 500px;
     max-width: 500px;
-    float: left; 
+    float: left;  
 }
 
 .about {
@@ -52,8 +54,8 @@ body {
 }
 
 .contact {
+    margin: 100px;
     text-align: center;
-    margin: 100px; 
 }
 
 .contact h1 {
@@ -66,9 +68,18 @@ body {
 
 .contact ol li {
     display: inline-block;
+    text-align: center;
+}
+
+#oblique {
+    font-style: oblique;
 }
 
 .footer {
+    margin: 10px; 
     text-align: center;
-    font-style: italic; 
+    font-style: oblique;
+    background-color: rgb(255, 234, 249);
+    border-style: ridge; 
+    border-color: rgb(99, 54, 82);
 }
