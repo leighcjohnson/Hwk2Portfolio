@@ -43,7 +43,13 @@ body {
 }
 
 .work {
+    margin: 100px; 
     text-align: center;
+}
+
+.work h1 {
+    margin-left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .work img {
@@ -54,12 +60,13 @@ body {
 }
 
 .contact {
-    margin: 100px;
+    margin: 100px; 
     text-align: center;
 }
 
 .contact h1 {
-    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .contact ol {
@@ -69,6 +76,7 @@ body {
 .contact ol li {
     display: inline-block;
     text-align: center;
+    font-size: x-large;
 }
 
 #oblique {
